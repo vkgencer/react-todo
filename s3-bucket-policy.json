@@ -1,0 +1,15 @@
+{
+    "Id": "Policy1569321710268",
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Stmt1569321607924",
+        "Action": [
+          "s3:GetObject"
+        ],
+        "Effect": "Allow",
+        "Resource": "arn:aws:s3:::vk-react-todo-app/*",
+        "Principal": "*"
+      }
+    ]
+  }
